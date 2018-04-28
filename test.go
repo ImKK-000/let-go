@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
-func add(x, y int) int {
-  return x + y
+func say(message string) (bool, string) {
+	fmt.Println(message)
+	return true, message
 }
 
 func main() {
-  fmt.Println(add(50, 25))
+	status, originalText := say("yo")
+	fmt.Println(status, originalText)
 }
