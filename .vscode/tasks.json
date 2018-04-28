@@ -4,7 +4,7 @@
     {
       "label": "Build and Run",
       "type": "shell",
-      "command": "go build func.go && ./func",
+      "command": "go build test.go && ./test",
       "group": {
         "kind": "build",
         "isDefault": true
