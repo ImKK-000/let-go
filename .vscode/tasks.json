@@ -1,14 +1,14 @@
 {
-  "version": "2.0.0",
-  "tasks": [
-    {
-      "label": "Build and Run",
-      "type": "shell",
-      "command": "go build test.go && ./test",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
-    }
-  ]
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run go file",
+            "type": "shell",
+            "command": "go run lets.go",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
 }
