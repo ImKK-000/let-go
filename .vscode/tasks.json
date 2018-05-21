@@ -4,7 +4,7 @@
         {
             "label": "Run go file",
             "type": "shell",
-            "command": "go run lets.go",
+            "command": "./run.sh",
             "group": {
                 "kind": "build",
                 "isDefault": true
